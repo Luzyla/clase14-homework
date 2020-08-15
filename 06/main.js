@@ -1,10 +1,12 @@
-const sumar = (numeroA, numeroB) => {
+const gritar = (str) => {
     
-    console.log(numeroA + numeroB);
+    return `¡${str}!` 
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+gritar('HOLA')
+console.log(gritar('HOLA'))
+
+gritar('AAAAAA')
+console.log(gritar('AAAAAA'))
 
 // ``
