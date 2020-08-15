@@ -1,10 +1,15 @@
-const sumar = (numeroA, numeroB) => {
+const dividir = (numeroA, numeroB) => {
     
-    console.log(numeroA + numeroB);
+    return numeroA / numeroB;
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+dividir(2, 3)
+console.log(dividir(2, 3))
+
+dividir(1.2, 3.4)
+console.log(dividir(1.2, 3.4))
+
+dividir(3, -5)
+console.log(dividir(3, -5))
 
 // ``
