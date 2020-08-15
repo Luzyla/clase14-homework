@@ -1,10 +1,16 @@
-const sumar = (numeroA, numeroB) => {
+const restar = (numeroA, numeroB) => {
     
-    console.log(numeroA + numeroB);
+    return numeroA - numeroB
 }
+ 
+restar(3, 2)
+console.log(restar(3, 2))
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+restar(10, 5.5)
+console.log(restar(10, 5.5))
+
+restar(3, 5)
+console.log(restar(3, 5))
+
 
 // ``
