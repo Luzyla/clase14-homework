@@ -1,10 +1,15 @@
-const sumar = (numeroA, numeroB) => {
+const saludar = (nombre) => {
     
-    console.log(numeroA + numeroB);
+    return `Hola ${nombre}, un gusto conocerte!`
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+saludar('Ada')
+console.log(saludar('Ada'))
+
+saludar('Malena')
+console.log(saludar('Malena'))
+
+saludar('Carola')
+console.log(saludar('Carola'))
 
 // ``
