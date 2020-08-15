@@ -12,10 +12,11 @@ Algunos ejercicios para practicar funciones, operadores, sintaxis y otras cosas 
 ## Technologies / Tecnologías:
 - JavaScript:
     - camelCase
-    - prompt
-    - alert
     - let & const
-    - template strings
+    - strings & numbers
+    - arrow function
+    - return
+    - bastricks
     - console.log
 
 ### Note / Nota:
@@ -26,12 +27,12 @@ Please, be kind, this are my first steps!
 Por favor, se amable, estos son mis primeros pasos!
 
 ## Spoile Alert!
-### English: Too many pop-ups!
-### Español: Muchas ventanas emergentes!
+### English: You'll need the console to see "the magic"!
+### Español: Vas a necesitar la consola para ver "la magia"!
 
-## Index.html
+## Index / Índice
 ### English:
-If you open URL, you'll watch a list with links to every one exercise.
+If you open the URL, you'll watch a list with links to every one exercise.
 
 ### Español:
 Si abrís la URL, vas a ver una lista linkeada a cada uno de los ejercicios.
