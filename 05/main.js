@@ -1,10 +1,13 @@
-const sumar = (numeroA, numeroB) => {
+const areaTriangulo = (base, altura) => {
     
-    console.log(numeroA + numeroB);
+    return base * altura / 2;
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+areaTriangulo(3, 4)
+console.log(areaTriangulo(3, 4))
+
+areaTriangulo(5, 6)
+console.log(areaTriangulo(5, 6))
+
 
 // ``
