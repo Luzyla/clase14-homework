@@ -1,10 +1,16 @@
-const sumar = (numeroA, numeroB) => {
+const obtenerNombreCompleto = (nombre, apellido) => {
     
-    console.log(numeroA + numeroB);
+    return `${nombre} ${apellido}`
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+obtenerNombreCompleto('Ada', 'Lovelace')
+console.log(obtenerNombreCompleto('Ada', 'Lovelace'))
+
+obtenerNombreCompleto('Edith', 'Clarke')
+console.log(obtenerNombreCompleto('Edith', 'Clarke'))
+
+obtenerNombreCompleto('Rosalind', 'Franklin')
+console.log(obtenerNombreCompleto('Rosalind', 'Franklin'))
+
 
 // ``
