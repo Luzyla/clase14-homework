@@ -1,10 +1,12 @@
-const sumar = (numeroA, numeroB) => {
+const multiplicar = (numeroA, numeroB) => {
     
-    console.log(numeroA + numeroB);
+    return numeroA * numeroB;
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+multiplicar(2, 3)
+console.log(multiplicar(2, 3))
+
+multiplicar(4, 0.5)
+console.log(multiplicar(4, 0.5))
 
 // ``
