@@ -1,10 +1,14 @@
-const sumar = (numeroA, numeroB) => {
+const generarEmail = (nombre, dominio) => {
     
-    console.log(numeroA + numeroB);
+    return `${nombre}@${dominio}.com`
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+generarEmail('adalovelace', 'gmail')
+console.log(generarEmail('adalovelace', 'gmail'))
 
+generarEmail('rosalindfranklin', 'gmail')
+console.log(generarEmail('rosalindfranklin', 'gmail'))
+
+generarEmail('edithclarke', 'gmail')
+console.log(generarEmail('edithclarke', 'gmail'))
 // ``
