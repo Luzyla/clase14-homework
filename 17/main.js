@@ -1,10 +1,16 @@
-const sumar = (numeroA, numeroB) => {
+const obtenerCompetencia = (a, b) => {
     
-    console.log(numeroA + numeroB);
+    return  `${a} vs. ${b}`
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+obtenerCompetencia('JavaScript','Python')
+console.log(obtenerCompetencia('JavaScript','Python'))
+
+obtenerCompetencia('Coca-cola','Pepsi')
+console.log(obtenerCompetencia('Coca-cola','Pepsi'))
+
+obtenerCompetencia('Perros','Gatos')
+console.log(obtenerCompetencia('Perros','Gatos'))
+
 
 // ``
