@@ -1,10 +1,26 @@
-const sumar = (numeroA, numeroB) => {
-    
-    console.log(numeroA + numeroB);
+const calcularPorcentaje = (numero, porcentaje) => {
+    const porciento = (numero * porcentaje) / 100
+
+    return porciento
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+calcularPorcentaje(100, 15)
+//console.log(calcularPorcentaje(100, 15))
+
+const sumarPorcentaje = (numero, porcentaje) => {
+  const porcentual = calcularPorcentaje(numero, porcentaje)  
+  const suma = numero + porcentual
+  
+  return suma
+}
+
+sumarPorcentaje(100, 15)
+console.log(sumarPorcentaje(100, 15))
+
+sumarPorcentaje(10, 50)
+console.log(sumarPorcentaje(10, 50))
+
+sumarPorcentaje(200, 10)
+console.log(sumarPorcentaje(200, 10))
 
 // ``
