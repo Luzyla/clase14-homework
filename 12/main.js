@@ -1,10 +1,16 @@
-const sumar = (numeroA, numeroB) => {
+const calcularPerimetroRectangulo = (ancho, alto) => {
+    const anchos = ancho * 2
+    const altos = alto * 2
+    const perimetro = anchos + altos
     
-    console.log(numeroA + numeroB);
+    return perimetro
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+calcularPerimetroRectangulo(3.2, 5)
+console.log(calcularPerimetroRectangulo(3.2, 5))
+
+calcularPerimetroRectangulo(10, 20)
+console.log(calcularPerimetroRectangulo(10, 20))
+
 
 // ``
