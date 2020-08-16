@@ -1,10 +1,45 @@
-const sumar = (numeroA, numeroB) => {
+// obtenerNombreCompleto()
+const obtenerNombreCompleto = (nombre, apellido) => {
     
-    console.log(numeroA + numeroB);
+    return `${nombre} ${apellido}`
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+obtenerNombreCompleto('Ada', 'Lovelace')
+//console.log(obtenerNombreCompleto('Ada', 'Lovelace'))
+
+// saludar()
+const saludar = (nombre) => {
+    
+    return `¡Hola ${nombre}, un gusto conocerte!`
+}
+
+saludar('Ada')
+//console.log(saludar('Ada'))
+
+// gritar()
+const gritar = (str) => {
+    
+    return `¡${str}!` 
+}
+
+gritar('HOLA')
+//console.log(gritar('HOLA'))
+
+
+
+
+// saludarGritando()
+const saludarGritando = (nombre, apellido) => {
+    const nombreCompleto = obtenerNombreCompleto(nombre, apellido)
+    const saludo = saludar(nombreCompleto)
+    const grito = gritar(saludo)
+
+    return grito 
+}
+
+saludarGritando('Ada', 'Lovelace')
+console.log(saludarGritando('Ada', 'Lovelace'))
+
 
 // ``
+
