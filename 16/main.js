@@ -1,10 +1,17 @@
-const sumar = (numeroA, numeroB) => {
-    
-    console.log(numeroA + numeroB);
+const calcularFPS = (fps, minutos) => {
+    const segundos = minutos * 60
+    const frames = fps * segundos
+
+    return frames    
 }
 
-sumar(10, 20)
-sumar(8, 8)
-sumar(38, 34)
+calcularFPS(1, 1)
+console.log(calcularFPS(1, 1))
+
+calcularFPS(10, 2)
+console.log(calcularFPS(10, 2))
+
+calcularFPS(2, 3)
+console.log(calcularFPS(2, 3))
 
 // ``
